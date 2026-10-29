@@ -1,0 +1,11 @@
+RETRIEVAL-AUGMENTED GENERATION AND THE MECHANICS OF SEMANTIC SIMILARITY
+Artificial Intelligence and Information Retrieval Laboratory
+
+Paragraph 1: Foundations of Retrieval-Augmented Generation (RAG)
+Large language models possess impressive generative capabilities but are susceptible to hallucination, factual obsolescence, and lack of domain-specific private knowledge. Retrieval-Augmented Generation (RAG) mitigates these weaknesses by combining neural information retrieval with parametric language generation. In a standard RAG architecture, an external corpus of documents is pre-processed, chunked into coherent textual units, and encoded into dense continuous vector spaces using specialized transformer embedding models.
+
+Paragraph 2: Vector Embeddings and Cosine Similarity Retrieval
+When a user issues an information query, the query string is projected into the identical vector space via the embedding model. Cosine similarity retrieves relevant document passages by measuring the cosine of the angle between the normalized query vector and stored document chunk vectors. Mathematically, for two normalized vectors u and v, cosine similarity equals their inner dot product, yielding a score between -1 and 1. Values approaching 1 denote close semantic orientation in high-dimensional space, regardless of lexical overlap. Unlike traditional keyword matching (such as BM25 or TF-IDF), semantic vector retrieval identifies contextual synonymy and conceptual relevance, successfully matching queries with relevant passages even when distinct vocabulary is employed.
+
+Paragraph 3: Chunking Boundaries and Traceable Attribution
+Effective retrieval depends critically on chunking strategy. Slicing documents into ~500 token segments with overlapping windows preserves sentence context while preventing semantic dilution. Furthermore, maintaining strict provenance metadata—such as source document identifiers, page numbers, paragraph indexes, and exact extracted line ranges—allows the retrieval engine to trace every generated insight directly back to the supporting source text, providing indispensable transparency for academic and clinical validation.

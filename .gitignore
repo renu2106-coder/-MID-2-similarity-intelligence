@@ -1,0 +1,40 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# Database and uploaded files
+data/uploads/*
+!data/uploads/.gitkeep
+data/similarity.db
+data/similarity.db-journal
+data/similarity.db-wal
+data/similarity.db-shm
+
+# HuggingFace & Torch cache
+.cache/
+hf_cache/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+

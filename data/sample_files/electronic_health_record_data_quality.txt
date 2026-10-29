@@ -1,0 +1,11 @@
+DATA QUALITY CHALLENGES IN ELECTRONIC HEALTH RECORDS FOR CLINICAL RESEARCH
+Institute of Biomedical Informatics
+
+Paragraph 1: The Promise and Fragility of Secondary EHR Data
+Electronic Health Records (EHR) capture immense quantities of real-world patient data across inpatient, outpatient, and emergency encounters. Secondary analysis of EHR repositories powers observational epidemiology, comparative effectiveness research, and deep learning diagnostic tools. However, secondary EHR data is inherently messy, collected primarily for administrative billing and clinical documentation rather than standardized scientific experimentation.
+
+Paragraph 2: The Impact of Missing and Duplicate Records
+Missing and duplicate records severely affect EHR data quality, compromising clinical research validity and patient safety. Duplicate patient records occur when identity matching algorithms fail due to typographical variations in patient names, mismatched birth dates, or fragmented health system identifiers. These duplicates fragment longitudinal patient histories, leading to repeated laboratory testing, contradictory medication lists, and erroneous clinical assessments. Conversely, missing clinical values—often non-randomly missing—distort statistical associations. For instance, diagnostic codes may only be entered when billing requires them, creating false negatives for mild or well-controlled chronic conditions. Addressing these defects necessitates robust master patient index (MPI) matching, probabilistic deduplication routines, and rigorous imputation methodologies.
+
+Paragraph 3: Governance and Data Cleaning Frameworks
+Modern healthcare organizations implement standardized common data models such as OMOP (Observational Medical Outcomes Partnership) and FHIR (Fast Healthcare Interoperability Resources) to harmonize disparate hospital records. Continuous automated data audits scan for logical inconsistencies, abnormal temporal sequences, and completeness metrics. Establishing comprehensive data provenance safeguards algorithmic fairness and guarantees that observational clinical research reflects true physiological phenomena rather than documentation artifacts.

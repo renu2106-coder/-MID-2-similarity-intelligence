@@ -1,0 +1,11 @@
+GENOMIC SURVEILLANCE AND EPIDEMIOLOGY OF ANTIMICROBIAL RESISTANCE
+Global Infectious Diseases and Pathogen Genomics Centre
+
+Paragraph 1: The Escalating Global Threat of Resistant Pathogens
+Antimicrobial resistance (AMR) represents one of the most pressing threats to modern global public health, compromising the effectiveness of standard antibiotics against common bacterial infections. Resistant strains of pathogens such as methicillin-resistant Staphylococcus aureus (MRSA), carbapenem-resistant Enterobacteriaceae (CRE), and multidrug-resistant Mycobacterium tuberculosis lead to increased mortality, prolonged hospital stays, and exorbitant medical costs.
+
+Paragraph 2: Whole-Genome Sequencing in Bacterial Surveillance
+Bacterial genomes support antimicrobial resistance surveillance by providing comprehensive, high-resolution insights into the genetic determinants of drug resistance. High-throughput Whole-Genome Sequencing (WGS) enables bioinformaticians to identify known antimicrobial resistance genes (ARGs), single-nucleotide polymorphisms (SNPs) in antibiotic target genes, and mobile genetic elements such as plasmids, transposons, and integrons that facilitate horizontal gene transfer. Genomic surveillance allows health authorities to track transmission chains across hospital wards, detect silent reservoir spread in food-producing animals, and discover emerging resistance mechanisms long before phenotypic culture testing finishes.
+
+Paragraph 3: Integrated Global Surveillance Systems
+Initiatives like the World Health Organization's Global Antimicrobial Resistance and Use Surveillance System (GLASS) increasingly combine phenotypic susceptibility data with genomic sequence databases. Cloud-based bioinformatic pipelines automate the identification of resistomes and virulence profiles from raw sequencing reads. This unified molecular surveillance enables proactive antimicrobial stewardship, informs empirical antibiotic prescribing guidelines, and accelerates targeted containment of multidrug-resistant bacterial outbreaks.
