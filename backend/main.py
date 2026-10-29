@@ -1,4 +1,7 @@
 import os
+import sys
+# Ensure backend directory is in python search path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import time
 import uuid
 import json
